@@ -1,4 +1,5 @@
 body {
+    background-image: url(current-photos/background.jpg);
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
 }
@@ -7,3 +8,16 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
+p {
+        background-color: #f0f0f0;
+        font-size: 20px;
+        text-align: center;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}   
