@@ -6,18 +6,11 @@ Using javascript and DOM, change text and images with the click of a button!
 ## Difficulty
 Easy
 
-## Prerequisites
-- HTML structures and attributes
-- Basic CSS styling
-- Changing Elements in HTML using DOM
-- JS Functions
-- Variables
-- Return Statements
-
 ## Setup
-1. Create the following files:
-  - index.html
-  - style.css
-  - script.js
+1. Download the files into your preffered html/css/js editor.
 
-## Part I: HTML
+## The Task
+You are starting off with a photo album website that is supposed to be filled with winter pictures, but there are some summer pictures in there. 
+There is a button on the top that says "fix" that will run a javascript function on click. It is your job to create the fix function.
+The fix function will use DOM to remove the summer pictures, as well as add some new winter pictures, using some of the photos in the winter folder.
+
