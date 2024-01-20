@@ -28,4 +28,36 @@ The first image we will remove will be the coconut, which is located at 'photos/
 ```
 var coconut = document.getElementById("coconut");
 ```
+Now that we have assigned a variable to an element in the HTML, we can remove it using .remove():
+```
+coconut.remove();
+```
+Repeat these steps for the next three photos, which are 'coast.jpg', 'watermelon.jpg', and 'sunflowers.jpg'. If you want to see if everything works, refresh the page and press the fix button. 
+
+## Part 2: Adding Winter Photos
+Now, all of the summer photos are gone, and we can start adding in some winter photos. Three winter photos are already provided in the 'to-add' folder in the project.
+The process of creating document elements is very similar to what we've done so far, using document.createElement(element name). Let's start by adding tree.jpg.
+```
+var tree = document.createElement("img");
+```
+With this, we have created an image element, but it has no attributes, so let's add some. First, add an id to the element, so we can refer to it later if we ever
+need to. We can do this by using .setAttribute(attribute, value):
+```
+tree.setAttribute("id", "tree");
+```
+Since we're working with an img object, we also want to set the src attribute to the file path of the image we want it to be:
+```
+tree.setAttribute("src", "to-add/christmas tree.jpg");
+```
+Now that our tree element is ready to go, we need to append it to an existing object in the HTML in order for it to show up. The HTML already has a divider with 
+the id "photos" to append them to, so we need to assign that divider to a variable before we can do anything with it in javascript.
+```
+var photos = document.getElementById("photos");
+```
+Finally, we can use .appendChild(element) to add our new element into the website.
+```
+photos.appendChild(tree);
+```
+Refresh the page and press the fix button to see it in action. Repeat these steps two more times for the next two photos, which are 'to-add/snowmen.jpg' and 'to-add/stockings.jpg'. 
+
 
