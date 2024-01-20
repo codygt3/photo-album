@@ -1,5 +1,5 @@
 # Photo Album
-Using javascript and DOM, change text and images with the click of a button!
+Using javascript and DOM, change a photo album with the click of a button!
 
 ![demo](demo.gif)
 
