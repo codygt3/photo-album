@@ -8,7 +8,7 @@ The objective of this short project is to get familiar with adding and removing 
 by adding and removing image elements from a photo album. 
 
 ## Difficulty
-Easy
+Beginner
 
 ## Prerequisites
 Understanding of HTML attributes such as "id" and "src"
