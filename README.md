@@ -1,7 +1,7 @@
 # Photo Album
 Using javascript and DOM, change text and images with the click of a button!
 
-![demo](https://github.com/codygt3/photo-album/assets/150397204/fd9ab3d1-c246-47da-9daa-ed202ab731c9)
+![demo](demo.gif)
 
 ## Difficulty
 Easy

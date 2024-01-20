@@ -1,26 +1,32 @@
 // Your JavaScript code goes here
-function swap() {
-    var title = document.getElementById("title");
-    title.textContent = "My Summer Photo Album";
+function fix() {
+    var coconut = document.getElementById("coconut");
+    coconut.remove();
 
-    var description = document.getElementById("description");
-    description.textContent = "This is a photo album about summer!";
+    var coast = document.getElementById("coast");
+    coast.remove();
 
-    var body = document.body;
-    body.style.backgroundImage = "url(summer/background.jpg)";
+    var watermelon = document.getElementById("watermelon");
+    watermelon.remove();
 
-    var photo1 = document.getElementById("photo1");
-    photo1.src = "summer/coconut.jpg";  
+    var sunflowers = document.getElementById("sunflowers");
+    sunflowers.remove();
 
-    var photo2 = document.getElementById("photo2");
-    photo2.src = "summer/sunflowers.jpg";
-    
-    var photo3 = document.getElementById("photo3");
-    photo3.src = "summer/coast.jpg";
-    
-    var photo4 = document.getElementById("photo4");
-    photo4.src = "summer/watermelon.jpg";
-    
-    var photo5 = document.getElementById("photo5");
-    photo5.src = "summer/beach.jpg";  
+
+    var tree = document.createElement("img");
+    tree.setAttribute("id", "tree");
+    tree.setAttribute("src", "to-add/christmas tree.jpg")
+
+    var snowmen = document.createElement("img");
+    snowmen.setAttribute("id", "snowmen");
+    snowmen.setAttribute("src", "to-add/snowmen.jpg");
+
+    var stockings = document.createElement("img");
+    stockings.setAttribute("id", "stockings");
+    stockings.setAttribute("src", "to-add/stockings.jpg");
+
+    var photos = document.getElementById("photos");
+    photos.appendChild(tree);
+    photos.appendChild(snowmen);
+    photos.appendChild(stockings);
 }

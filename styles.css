@@ -1,5 +1,5 @@
 body {
-    background-image: url(winter/background.jpg);
+    background-image: url(photos/background.jpg);
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
 }
@@ -32,7 +32,11 @@ p {
 
 .photo {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+}
+
+.photo img{
+    width: 48%;
+    margin: 1%; 
 }
